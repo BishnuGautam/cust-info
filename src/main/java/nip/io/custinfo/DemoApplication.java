@@ -19,6 +19,7 @@ public class DemoApplication {
 		return args -> {
 
 			System.out.println("Let's inspect the beans provided by Spring Boot:");
+			System.out.println("Bishnu Gautam Test appliction for Spring Boot");
 
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
